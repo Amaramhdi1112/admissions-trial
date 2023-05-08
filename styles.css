@@ -1,0 +1,32 @@
+#main {
+    background-color: #eee;
+}
+
+#img-div img {
+    max-width: 80%;
+    height: 600px;
+}
+
+#contents {
+    width: 600px;
+}
+
+.li {
+    margin: 0;
+    padding: 0;
+    justify-content: left;
+}
+#header {
+    font-size: large;
+}
+#nav-bar {
+    position: fixed;
+    top: 0;
+}
+.flex-container {
+    display: flex;
+  }
+  @media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
